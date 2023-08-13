@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="streakWindow"
+config/name="godot-alt-window"
 run/main_scene="res://__Window__/Main_template.tscn"
 run/low_processor_mode=true
 config/icon="res://icon.png"
