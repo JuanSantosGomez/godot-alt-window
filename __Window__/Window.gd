@@ -11,8 +11,8 @@ func _physics_process(_delta):
 	if following:
 		OS.set_window_position(OS.window_position + get_global_mouse_position() - dragging_start_position)
 	else:
-		var ex = get_global_mouse_position().x if get_global_mouse_position().x > 300 else 300
-		var ey = get_global_mouse_position().y if get_global_mouse_position().y > 300 else 300
+		var ex = get_global_mouse_position().x if get_global_mouse_position().x > 300.0 else 300.0
+		var ey = get_global_mouse_position().y if get_global_mouse_position().y > 300.0 else 300.0
 		OS.set_window_size(Vector2(ex,ey))
 
 		$PanelContainer.rect_size=OS.window_size

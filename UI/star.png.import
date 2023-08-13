@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/star.png-1597b662504e27ae38e7e0daa5da39a0.stex"
+path="res://.import/star.png-ade81e310544d45b12cbd6de6310c43c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI/star.png"
-dest_files=[ "res://.import/star.png-1597b662504e27ae38e7e0daa5da39a0.stex" ]
+source_file="res://godot-alt-window/UI/star.png"
+dest_files=[ "res://.import/star.png-ade81e310544d45b12cbd6de6310c43c.stex" ]
 
 [params]
 

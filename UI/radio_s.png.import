@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/radio_s.png-d621b3436c266ce25db746a9eb88a431.stex"
+path="res://.import/radio_s.png-b96eaa5661948f90dcaf2c0b5cb41003.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI/radio_s.png"
-dest_files=[ "res://.import/radio_s.png-d621b3436c266ce25db746a9eb88a431.stex" ]
+source_file="res://godot-alt-window/UI/radio_s.png"
+dest_files=[ "res://.import/radio_s.png-b96eaa5661948f90dcaf2c0b5cb41003.stex" ]
 
 [params]
 
