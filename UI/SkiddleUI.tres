@@ -19,7 +19,7 @@ content_margin_left = 15.0
 content_margin_right = 15.0
 content_margin_top = 10.0
 content_margin_bottom = 10.0
-bg_color = Color( 0.0627451, 0.0627451, 0.0627451, 1 )
+bg_color = Color( 0.0627451, 0.0627451, 0.0627451, 0 )
 
 [sub_resource type="StyleBoxFlat" id=8]
 content_margin_left = 15.0
@@ -58,14 +58,14 @@ content_margin_left = 35.0
 content_margin_right = 35.0
 content_margin_top = 15.0
 content_margin_bottom = 15.0
-bg_color = Color( 0.156863, 0.156863, 0.156863, 1 )
+bg_color = Color( 0.156863, 0.156863, 0.156863, 0 )
 draw_center = false
 border_width_left = 10
 border_width_bottom = 1
 border_color = Color( 0.121569, 0.121569, 0.121569, 1 )
 
 [sub_resource type="StyleBoxFlat" id=3]
-bg_color = Color( 0, 0, 0, 1 )
+bg_color = Color( 0, 0, 0, 0 )
 
 [sub_resource type="StyleBoxFlat" id=10]
 content_margin_left = 15.0

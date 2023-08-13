@@ -4,6 +4,7 @@ var following = false
 var dragging_start_position = Vector2()
 var sollowing = false
 func _ready():
+	get_tree().get_root().set_transparent_background(false)
 	$PanelContainer/VBoxContainer/HBoxContainer/Label.text=ProjectSettings.get_setting("application/config/name")
 	set_physics_process(false)
 
@@ -44,3 +45,8 @@ func _on_Resize_gui_input(event):
 			dragging_start_position = get_local_mouse_position()
 
 
+
+
+func _on_transparenter_toggled(button_pressed):
+	get_tree().get_root().set_transparent_background(button_pressed)
+	$PanelContainer/VBoxContainer/HBoxContainer/transparenter.text = "≠".repeat(int(button_pressed)) + "Φ".repeat(int(!button_pressed))
